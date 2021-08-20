@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbackground"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_layout_white"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <TextView
+            android:id="@+id/text_pertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/mmedium"
+            android:gravity="center"
+            android:text="@string/gejala"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/bluePrimary"
+                    android:buttonTint="@color/bluePrimary"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/tidak"
+                    android:textColor="@color/grayPrimary"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/bluePrimary"
+                    android:buttonTint="@color/bluePrimary"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/tidak_tahu"
+                    android:textColor="@color/grayPrimary"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/bluePrimary"
+                    android:buttonTint="@color/bluePrimary"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/sedikit_yakin"
+                    android:textColor="@color/grayPrimary"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/bluePrimary"
+                    android:buttonTint="@color/bluePrimary"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/cukup_yakin"
+                    android:textColor="@color/grayPrimary"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/bluePrimary"
+                    android:buttonTint="@color/bluePrimary"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/yakin"
+                    android:textColor="@color/grayPrimary"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/bluePrimary"
+                    android:buttonTint="@color/bluePrimary"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/sangat_yakin"
+                    android:textColor="@color/grayPrimary"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_lanjut"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/bg_btn_blue_primary"
+                android:fontFamily="@font/mmedium"
+                android:text="@string/lanjut"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                app:backgroundTint="@color/bluePrimary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

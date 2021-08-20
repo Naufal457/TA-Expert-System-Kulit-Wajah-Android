@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bbackground">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/bg_layout_white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:gravity="center|top"
+        android:paddingTop="30dp">
+
+
+
+        <TextView
+            android:id="@+id/tv_nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/nama_penyakit"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/mmedium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/gejala"
+            android:fontFamily="@font/mmedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_daftar_gejala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/tidak_ada_gejala"
+            android:fontFamily="@font/mmedium"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:id="@+id/btn_atur_ulang"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/atur_ulang_gejala"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:backgroundTint="@color/bluePrimary"
+
+            android:layout_height="55dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="24dp"
+           />
+
+    </LinearLayout>
+
+</ScrollView>

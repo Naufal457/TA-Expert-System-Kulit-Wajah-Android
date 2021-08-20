@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Sistem Pakar Kulit Wajah</string>
+    <string name="app_name_full">Sistem Pakar Diagnosa Penyakit Kulit Pada Wajah</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="diagnosa_penyakit">Diagnosa Penyakit</string>
+    <string name="riwayat_diagnosa">Riwayat Diagnosa</string>
+    <string name="daftar_penyakit">Daftar Penyakit</string>
+    <string name="daftar_pengguna">Data Pengguna</string>
+    <string name="getstarted">Ayo Cek Kesehatan Wajah Kamu</string>
+
+
+    <string name="metode_forward_chaining">Metode Forward Chaining</string>
+    <string name="metode_certainty_factor">Metode Certainty Factor</string>
+    <string name="diagnosa_cepat">Diagnosa Cepat</string>
+    <string name="diagnosa_akurat">Diagnosa Akurat</string>
+
+    <string name="data_penyakit">Data Penyakit</string>
+    <string name="data_aturan">Data Aturan</string>
+    <string name="kode_gejala">Kode Gejala</string>
+    <string name="nama_gejala">Nama Gejala</string>
+    <string name="simpan">Simpan</string>
+    <string name="nilai_cf">Nilai CF</string>
+    <string name="hapus_gejala">Hapus Gejala</string>
+    <string name="kode_penyakit">Kode Penyakit</string>
+    <string name="nama_penyakit">Nama Penyakit</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="solusi">Solusi</string>
+    <string name="gejala">Gejala</string>
+    <string name="tidak_ada_gejala">Tidak ada gejala</string>
+    <string name="atur_ulang_gejala">Atur Ulang Gejala</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="tidak_ada_riwayat_diagnosa">Tidak ada riwayat diagnosa</string>
+    <string name="text_hasil_diagnosa_nama_penyakit">Berdasarkan gejala terpilih, kemungkinan terkena penyakit</string>
+    <string name="forward_chaining">Forward Chaining</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="tidak_tahu">Tidak yakin</string>
+    <string name="sedikit_yakin">Sedikit yakin</string>
+    <string name="cukup_yakin">Cukup yakin</string>
+    <string name="id_pengguna">ID Pengguna</string>
+    <string name="yakin">Yakin</string>
+    <string name="sangat_yakin">Sangat yakin</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="menu_utama">Menu Utama</string>
+    <string name="atur_sistem_pakar_kamu_disini_ya">Atur Sistem Pakar Kamu Disini Ya</string>
+    <string name="data_gejala">Data Gejala</string>
+    <string name="aturan">Aturan</string>
+    <string name="certainly_factor">Certainly Factor</string>
+    <string name="selamat_datang_user">Yuk Cek Kesehatan Wajahmu disini</string>
+    <string name="hasil_diagnosa">Hasil Diagnosa</string>
+    <string name="penyakit">Penyakit</string>
+
+    <string name="logout">Logout</string>
+    <string name="panduan_admin">Panduan Aplikasi</string>
+    <string name="informasi_user">Info User</string>
+    <string name="informasi_admin">Info Admin</string>
+    <string name="Dashboard">Kembali ke Dashboard</string>
+</resources>

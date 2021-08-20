@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sistempakarkulitwajah">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SistemPakarKulitWajah"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.sistempakarkulitwajah.DiagnosaCfHasilActivity"
+            android:theme="@style/DiagnosaCfHasilTheme"
+            android:parentActivityName="com.sistempakarkulitwajah.DiagnosaCfActivity"></activity>
+        <activity
+            android:name="com.sistempakarkulitwajah.DiagnosaForwardHasilActivity"
+            android:theme="@style/DiagnosaForwardHasilTheme"
+            android:parentActivityName="com.sistempakarkulitwajah.DiagnosaForwardActivity" />
+
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.PanduanAdminActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.PanduanAdminActivity" android:theme="@style/PanduanAdminTheme"
+            />
+
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.AturanViewActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.AturanActivity" />
+
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.AturanEditActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.AturanViewActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.PenyakitEditActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.PenyakitActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.PenyakitTambahActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.PenyakitActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.GejalaTambahActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.GejalaActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.GejalaEditActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.GejalaActivity" />
+
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.PenggunaEditActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.PenggunaActivity" />
+
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.PenggunaTambahActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.PenggunaActivity" />
+
+
+
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.PanduanUserActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.admin.PanduanUserActivity" android:theme="@style/PanduanUserTheme"
+            />
+
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.AturanActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.AdminActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.PenyakitActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.AdminActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.GejalaActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.AdminActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.admin.PenggunaActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.AdminActivity" />
+        <activity android:name="com.sistempakarkulitwajah.AdminActivity" android:theme="@style/AdminTheme" />
+
+        <activity
+            android:name="com.sistempakarkulitwajah.PenyakitDetailActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.PenyakitActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.PenyakitActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.MainActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.RiwayatActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.MainActivity" />
+        <activity
+            android:name="com.sistempakarkulitwajah.DiagnosaCfActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.MainActivity" />
+
+        <activity
+            android:name="com.sistempakarkulitwajah.DiagnosaForwardActivity"
+            android:parentActivityName="com.sistempakarkulitwajah.MainActivity" />
+        <activity android:name="com.sistempakarkulitwajah.DaftarActivity" android:theme="@style/DaftarTheme" />
+        <activity android:name="com.sistempakarkulitwajah.LoginActivity"  android:theme="@style/LoginTheme" />
+        <activity android:name="com.sistempakarkulitwajah.MainActivity" android:theme="@style/MainTheme" />
+        <activity
+            android:name="com.sistempakarkulitwajah.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

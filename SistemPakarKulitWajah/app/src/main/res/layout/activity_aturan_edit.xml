@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bbackground"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="832dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_layout_white"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/nama_penyakit"
+            android:fontFamily="@font/mregular"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/mregular"
+            android:text="@string/nama_penyakit"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/gejala"
+            android:fontFamily="@font/mregular"
+            android:textColor="@color/black" />
+
+        <ListView
+            android:id="@+id/lv_gejala"
+            android:layout_width="match_parent"
+            android:layout_height="3564dp"
+            android:fontFamily="@font/mregular"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_btn_blue_primary"
+
+
+            android:fontFamily="@font/mmedium"
+            android:text="@string/simpan"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            app:backgroundTint="@color/bluePrimary" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
